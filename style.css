@@ -28,6 +28,7 @@ header{
 .interface{
    max-width: 1280px;
    margin: 0 auto;
+   padding: 0 30px;
 }
 
 .bottom-header nav ul{
@@ -57,42 +58,40 @@ header{
 }
 
 #oQueE h2{
-   padding-bottom: 20px;
+   margin-bottom: 40px;
 }
 
 #tipos{
    background-color: rgb(199, 199, 199);
-   padding-bottom: 100px;
+   padding: 60px 0;
 }
 
 #tipos h2{
    text-align: center;
-   padding: 30px 0px;
+   margin-bottom: 60px;
 }
 
 .card{
-   width: 400px;
-   height: 350px;
    background-color: rgb(233, 233, 233);
-   border: 1px solid #d1d1d1;
+   padding: 30px;
    border-radius: 10px;
    text-align: center;
-   margin: 10px;
+   border: 1px solid #d1d1d1;
 }
 
 .card h3{
-   font-size: 1.1em;
-   padding: 20px 0px;
+   font-size: 1.2em;
+   margin-bottom: 15px;
 }
 
 .card p{
    font-weight: 400;
-   font-size: .9em;
-   padding: 0px 20px;
+   font-size: .95em;
+   line-height: 1.6;
 }
 
 .cards{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
 }
